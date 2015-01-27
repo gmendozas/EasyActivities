@@ -25,8 +25,10 @@ namespace ServicioActividades.Controllers
         }
 
         // POST: api/Plantillas
-        public void Post([FromBody]string value)
+        public void Post(Plantilla plantilla)
         {
+            Plantillas p = new Plantillas();
+            p.InsertarPlantilla(plantilla);
         }
 
         // PUT: api/Plantillas/5
@@ -35,8 +37,9 @@ namespace ServicioActividades.Controllers
         }
 
         // DELETE: api/Plantillas/5
-        public void Delete(int id)
+        public void Delete(string plantillaId)
         {
+           
         }
     }
 }

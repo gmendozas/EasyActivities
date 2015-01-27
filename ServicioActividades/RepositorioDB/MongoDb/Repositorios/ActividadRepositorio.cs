@@ -9,23 +9,23 @@ using MongoDB.Driver;
 
 namespace RepositorioDB.MongoDb.Repositorios
 {
-    public class PlantillaRepositorio : BaseRepositorio<Plantilla>, IPlantillaRepositorio
+    public class ActividadRepositorio : BaseRepositorio<Actividad>, IActividadRepositorio
     {
-        public PlantillaRepositorio(string nombreColeccion, string connectionString, string nombreBaseDatos)
+        public ActividadRepositorio(string nombreColeccion, string connectionString, string nombreBaseDatos)
             : base(nombreColeccion, connectionString, nombreBaseDatos)
         {
         }
  
-        public List<Plantilla> ObtenerPlantillas()
+        public List<Actividad> ObtenerActividades()
         { 
             ConectarDb();
-            return new List<Plantilla>(ObtenerTodos().Select(p => p));
+            return new List<Actividad>(ObtenerTodos().Select(a => a));
         }
  
-        public void GuardarPlantilla(Plantilla plantilla)
+        public void GuardarActividad(Actividad actividad)
         { 
             ConectarDb();
-            Insertar(plantilla);
+            Insertar(actividad);
         }       
     }
 }

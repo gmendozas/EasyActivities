@@ -38,6 +38,6 @@ namespace RepositorioDB.MongoDb
         {
             var coleccion = database.GetCollection<T>(_nombreColeccion);
             return coleccion.FindAll().AsQueryable();
-        }
+        }       
     }
 }
