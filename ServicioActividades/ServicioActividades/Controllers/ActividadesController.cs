@@ -25,8 +25,10 @@ namespace ServicioActividades.Controllers
         }
 
         // POST: api/Actividades
-        public void Post([FromBody]string value)
+        public void Post(Actividad actividad)
         {
+            Actividades a = new Actividades();
+            a.InsertarActividad(actividad);
         }
 
         // PUT: api/Actividades/5

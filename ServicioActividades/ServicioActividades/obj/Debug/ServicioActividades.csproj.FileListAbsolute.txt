@@ -18,3 +18,23 @@ C:\Users\extsistmovilidad31\documents\visual studio 2013\Projects\ServicioActivi
 C:\Users\extsistmovilidad31\documents\visual studio 2013\Projects\ServicioActividades\ServicioActividades\obj\Debug\ServicioActividades.pdb
 C:\Users\extsistmovilidad31\Documents\Visual Studio 2013\Projects\ServicioActividades\ServicioActividades\bin\RepositorioDB.dll
 C:\Users\extsistmovilidad31\Documents\Visual Studio 2013\Projects\ServicioActividades\ServicioActividades\bin\RepositorioDB.pdb
+C:\sinner_universe\EasyActivities\ServicioActividades\ServicioActividades\bin\ServicioActividades.dll.config
+C:\sinner_universe\EasyActivities\ServicioActividades\ServicioActividades\bin\ServicioActividades.dll
+C:\sinner_universe\EasyActivities\ServicioActividades\ServicioActividades\bin\ServicioActividades.pdb
+C:\sinner_universe\EasyActivities\ServicioActividades\ServicioActividades\bin\Newtonsoft.Json.dll
+C:\sinner_universe\EasyActivities\ServicioActividades\ServicioActividades\bin\RepositorioDB.dll
+C:\sinner_universe\EasyActivities\ServicioActividades\ServicioActividades\bin\System.Net.Http.Formatting.dll
+C:\sinner_universe\EasyActivities\ServicioActividades\ServicioActividades\bin\System.Web.Http.dll
+C:\sinner_universe\EasyActivities\ServicioActividades\ServicioActividades\bin\System.Web.Http.WebHost.dll
+C:\sinner_universe\EasyActivities\ServicioActividades\ServicioActividades\bin\MongoDB.Driver.dll
+C:\sinner_universe\EasyActivities\ServicioActividades\ServicioActividades\bin\MongoDB.Bson.dll
+C:\sinner_universe\EasyActivities\ServicioActividades\ServicioActividades\bin\RepositorioDB.pdb
+C:\sinner_universe\EasyActivities\ServicioActividades\ServicioActividades\bin\Newtonsoft.Json.xml
+C:\sinner_universe\EasyActivities\ServicioActividades\ServicioActividades\bin\System.Net.Http.Formatting.xml
+C:\sinner_universe\EasyActivities\ServicioActividades\ServicioActividades\bin\System.Web.Http.xml
+C:\sinner_universe\EasyActivities\ServicioActividades\ServicioActividades\bin\System.Web.Http.WebHost.xml
+C:\sinner_universe\EasyActivities\ServicioActividades\ServicioActividades\bin\MongoDB.Driver.xml
+C:\sinner_universe\EasyActivities\ServicioActividades\ServicioActividades\bin\MongoDB.Bson.xml
+C:\sinner_universe\EasyActivities\ServicioActividades\ServicioActividades\obj\Debug\ServicioActividades.csprojResolveAssemblyReference.cache
+C:\sinner_universe\EasyActivities\ServicioActividades\ServicioActividades\obj\Debug\ServicioActividades.dll
+C:\sinner_universe\EasyActivities\ServicioActividades\ServicioActividades\obj\Debug\ServicioActividades.pdb

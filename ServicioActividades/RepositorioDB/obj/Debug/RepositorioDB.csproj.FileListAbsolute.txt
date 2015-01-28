@@ -7,3 +7,13 @@ C:\Users\extsistmovilidad31\Documents\Visual Studio 2013\Projects\ServicioActivi
 C:\Users\extsistmovilidad31\Documents\Visual Studio 2013\Projects\ServicioActividades\RepositorioDB\bin\Debug\MongoDB.Driver.xml
 C:\Users\extsistmovilidad31\Documents\Visual Studio 2013\Projects\ServicioActividades\RepositorioDB\obj\Debug\RepositorioDB.dll
 C:\Users\extsistmovilidad31\Documents\Visual Studio 2013\Projects\ServicioActividades\RepositorioDB\obj\Debug\RepositorioDB.pdb
+C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\bin\Debug\RepositorioDB.dll.config
+C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\bin\Debug\RepositorioDB.dll
+C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\bin\Debug\RepositorioDB.pdb
+C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\bin\Debug\MongoDB.Bson.dll
+C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\bin\Debug\MongoDB.Driver.dll
+C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\bin\Debug\MongoDB.Bson.xml
+C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\bin\Debug\MongoDB.Driver.xml
+C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\obj\Debug\RepositorioDB.csprojResolveAssemblyReference.cache
+C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\obj\Debug\RepositorioDB.dll
+C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\obj\Debug\RepositorioDB.pdb

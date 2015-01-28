@@ -13,7 +13,7 @@ namespace RepositorioDB.MongoDb.Entidades
         public string Descripcion { get; set; }
         public Persona Persona { get; set; }
         public TipoActividad TipoActividad { get; set; }
-        public DateTime Fecha { get; set; }
+        public String Fecha { get; set; }
         public TimeSpan HoraInicio { get; set; }
         public TimeSpan HoraFin { get; set; }
         public int Duracion { get; set; }

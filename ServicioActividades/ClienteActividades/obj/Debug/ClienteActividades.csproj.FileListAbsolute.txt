@@ -1,0 +1,13 @@
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\bin\Debug\ClienteActividades.exe.config
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\bin\Debug\ClienteActividades.exe
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\bin\Debug\ClienteActividades.pdb
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\obj\Debug\ClienteActividades.csprojResolveAssemblyReference.cache
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\obj\Debug\MainWindow.baml
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\obj\Debug\MainWindow.g.cs
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\obj\Debug\App.g.cs
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\obj\Debug\ClienteActividades_MarkupCompile.cache
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\obj\Debug\ClienteActividades.g.resources
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\obj\Debug\ClienteActividades.Properties.Resources.resources
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\obj\Debug\ClienteActividades.csproj.GenerateResource.Cache
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\obj\Debug\ClienteActividades.exe
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\obj\Debug\ClienteActividades.pdb
