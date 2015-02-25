@@ -133,7 +133,6 @@ namespace ClienteActividades
 
         private void InicializarActividad()
         {
-            actividad = new Actividad();
             ActividadTimer.Content = Descripcion.Text = Tipo.Text = string.Empty;
         }
     }
