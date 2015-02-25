@@ -11,3 +11,14 @@ C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\obj\Deb
 C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\obj\Debug\ClienteActividades.csproj.GenerateResource.Cache
 C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\obj\Debug\ClienteActividades.exe
 C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\obj\Debug\ClienteActividades.pdb
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\bin\Debug\GoogleMaps.LocationServices.dll
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\bin\Debug\RepositorioDB.dll
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\bin\Debug\MongoDB.Driver.dll
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\bin\Debug\MongoDB.Bson.dll
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\bin\Debug\RepositorioDB.pdb
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\bin\Debug\MongoDB.Driver.xml
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\bin\Debug\MongoDB.Bson.xml
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\bin\Debug\Newtonsoft.Json.dll
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\bin\Debug\System.Net.Http.Formatting.dll
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\bin\Debug\Newtonsoft.Json.xml
+C:\sinner_universe\EasyActivities\ServicioActividades\ClienteActividades\bin\Debug\System.Net.Http.Formatting.xml

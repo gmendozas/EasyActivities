@@ -1,17 +1,23 @@
 ﻿<Window x:Class="ClienteActividades.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="356.434">
+        Title="MainWindow" Height="156" Width="584" ResizeMode="NoResize">
     <Grid Margin="0,0,2,0" ToolTip="Acceder">
-        <Label Content="Usuario" HorizontalAlignment="Left" Margin="52,76,0,0" VerticalAlignment="Top" Width="100" Background="{x:Null}"/>
-        <Label Content="Clave" HorizontalAlignment="Left" Margin="52,136,0,0" VerticalAlignment="Top" Width="100"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="197,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <PasswordBox HorizontalAlignment="Left" Margin="197,136,0,0" VerticalAlignment="Top" Width="120"/>
-        <Button HorizontalAlignment="Left" Margin="146,181,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.055,0.457" Height="66" Click="Button_Click">            
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="75*"/>
+            <ColumnDefinition Width="212*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Descripción" HorizontalAlignment="Left" Margin="20,25,0,0" VerticalAlignment="Top" Width="100" Background="{x:Null}"/>
+        <Label Content="Tipo" HorizontalAlignment="Left" Margin="20,73,0,0" VerticalAlignment="Top" Width="100"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="125,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Name="Descripcion" Grid.ColumnSpan="2"/>
+        <Button Name="BtnTimer" HorizontalAlignment="Left" Margin="140,25,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.055,0.457" Height="66" Click="Button_Click" ToolTip="Inicia o para el conteo de la actividad" Grid.Column="1">
             <Button.Background>
-                <ImageBrush ImageSource="Images/ic_perm_identity_grey600_36dp.png"/>
+                <ImageBrush ImageSource="Images/ic_alarm_on_grey600_24dp.png"/>
             </Button.Background>
         </Button>
+        <Label Name="ActividadTimer" HorizontalAlignment="Left" Height="66" Margin="240,25,0,0" VerticalAlignment="Top" Width="90" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Height="26" Margin="125,73,0,0" TextWrapping="Wrap" Name="Tipo" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+        <Button Name="BtnGuardar" Content="Guardar" HorizontalAlignment="Left" Margin="345,25,0,0" VerticalAlignment="Top" Width="69" Height="66" Click="Button_Click_1" IsEnabled="False" ToolTip="Guarda el registro" Grid.Column="1"/>
 
     </Grid>
 </Window>

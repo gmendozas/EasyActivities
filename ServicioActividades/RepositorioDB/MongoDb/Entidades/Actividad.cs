@@ -16,7 +16,7 @@ namespace RepositorioDB.MongoDb.Entidades
         public String Fecha { get; set; }
         public TimeSpan HoraInicio { get; set; }
         public TimeSpan HoraFin { get; set; }
-        public int Duracion { get; set; }
+        public TimeSpan Duracion { get; set; }
         public Ubicacion Ubicacion { get; set; }
 
         public override string ToString()
