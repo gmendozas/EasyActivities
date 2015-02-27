@@ -1,0 +1,10 @@
+C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\bin\Release\RepositorioDB.dll.config
+C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\bin\Release\RepositorioDB.dll
+C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\bin\Release\RepositorioDB.pdb
+C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\bin\Release\MongoDB.Bson.dll
+C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\bin\Release\MongoDB.Driver.dll
+C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\bin\Release\MongoDB.Bson.xml
+C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\bin\Release\MongoDB.Driver.xml
+C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\obj\Release\RepositorioDB.csprojResolveAssemblyReference.cache
+C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\obj\Release\RepositorioDB.dll
+C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\obj\Release\RepositorioDB.pdb
