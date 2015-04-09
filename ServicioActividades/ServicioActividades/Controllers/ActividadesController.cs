@@ -24,6 +24,13 @@ namespace ServicioActividades.Controllers
             return "value";
         }
 
+        [Route("api/Actividades/{day}")]
+        public List<Actividad> Get(string day)
+        {
+            Actividades a = new Actividades();
+            return a.GetActividadesPorFecha(day);
+        }
+
         // POST: api/Actividades
         public void Post(Actividad actividad)
         {

@@ -12,7 +12,7 @@ namespace RepositorioDB.MongoDb
         private readonly string _nombreColeccion;
         private readonly string _connectionString;
         private readonly string _nombreBaseDatos;
-        private MongoDatabase database;
+        private MongoDatabase database;       
 
         public BaseRepositorio(string nombreColeccion, string connectionString, string nombreBaseDatos)
         {
@@ -38,6 +38,12 @@ namespace RepositorioDB.MongoDb
         {
             var coleccion = database.GetCollection<T>(_nombreColeccion);
             return coleccion.FindAll().AsQueryable();
-        }       
+        }
+
+        public IQueryable<T> ObtenerPorFiltro(IMongoQuery query)
+        {
+            var coleccion = database.GetCollection<T>(_nombreColeccion);
+            return coleccion.Find(query).AsQueryable();
+        }   
     }
 }

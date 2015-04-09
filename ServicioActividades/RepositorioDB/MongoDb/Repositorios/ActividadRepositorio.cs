@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using RepositorioDB.Contratos;
 using RepositorioDB.MongoDb.Entidades;
 using MongoDB.Driver;
+using MongoDB.Driver.Builders;
 
 namespace RepositorioDB.MongoDb.Repositorios
 {
@@ -26,6 +27,15 @@ namespace RepositorioDB.MongoDb.Repositorios
         { 
             ConectarDb();
             Insertar(actividad);
-        }       
+        }
+
+        public List<Actividad> ObtenerActividadesPorDia(string fecha) 
+        {
+            List<Actividad> misActividades = new List<Actividad>();
+            ConectarDb();
+            IMongoQuery query = Query.EQ("Fecha", fecha.Replace('-', '/'));
+            misActividades = ObtenerPorFiltro(query).ToList<Actividad>();
+            return misActividades;
+        }
     }
 }
