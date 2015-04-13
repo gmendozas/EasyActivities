@@ -41,6 +41,31 @@ namespace ClienteActividades
                                         };
             this.actividad.Fecha = DateTime.Now.ToString("dd/MM/yyyy");
             this.dispatcherTimer = null;
+            ObtenerActividades();
+        }
+
+        private async void ObtenerActividades()
+        {
+            try
+            {
+                using (var client = new HttpClient())
+                {
+                    client.BaseAddress = new Uri("http://localhost:53675/");
+                    client.DefaultRequestHeaders.Accept.Clear();
+                    client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                    string uri = "api/Actividades/" + this.actividad.Fecha.Replace('/', '-');
+                    HttpResponseMessage response = await client.GetAsync(uri);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        var actividades = response.Content.ReadAsAsync<IEnumerable<Actividad>>().Result;
+                        dtgActividades.ItemsSource = actividades;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(this, ex.Message);
+            }
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -100,6 +125,7 @@ namespace ClienteActividades
 
         private async void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            BtnGuardar.IsEnabled = false;
             try
             {
                 using (var client = new HttpClient())
@@ -121,6 +147,7 @@ namespace ClienteActividades
             {
                 MessageBox.Show(this, ex.Message);
             }
+            BtnGuardar.IsEnabled = true;
         }
 
         private void CambiarEstadoHabilitado(bool estado)
