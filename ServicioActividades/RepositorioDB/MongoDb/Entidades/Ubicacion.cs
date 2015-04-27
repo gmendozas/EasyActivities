@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace RepositorioDB.MongoDb.Entidades
 {
+    [Serializable]
     public class Ubicacion
     {
         public string Latitud { get; set; }

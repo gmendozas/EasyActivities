@@ -28,6 +28,7 @@ namespace ClienteActividades
         private Actividad actividad;
         private DateTime horaInicio;
         private DispatcherTimer dispatcherTimer;
+        List<Actividad> actividades = null;
 
         public MainWindow()
         {
@@ -39,7 +40,7 @@ namespace ClienteActividades
                                             Usuario = "gmendoza",
                                             Correo = "gmendoza@syesoftware.com"
                                         };
-            this.actividad.Fecha = DateTime.Now.ToString("dd/MM/yyyy");
+            this.actividad.Fecha = "24/04/2015";//DateTime.Now.ToString("dd/MM/yyyy");
             this.dispatcherTimer = null;
             ObtenerActividades();
         }
@@ -57,13 +58,14 @@ namespace ClienteActividades
                     HttpResponseMessage response = await client.GetAsync(uri);
                     if (response.IsSuccessStatusCode)
                     {
-                        var actividades = response.Content.ReadAsAsync<IEnumerable<Actividad>>().Result;
+                        actividades = response.Content.ReadAsAsync<IEnumerable<Actividad>>().Result.ToList<Actividad>();
                         dtgActividades.ItemsSource = actividades;
                     }
                 }
             }
             catch (Exception ex)
             {
+                actividades = new List<Actividad>();
                 MessageBox.Show(this, ex.Message);
             }
         }
@@ -87,6 +89,7 @@ namespace ClienteActividades
                 actividad.TipoActividad = new TipoActividad();
                 horaInicio = DateTime.Now;
                 actividad.HoraInicio = horaInicio.TimeOfDay;
+                txbHoraInicio.Text = horaInicio.ToString("hh:mm:ss");
                 var address = "Av Insurgentes Sur 1458, Benito Juarez Actipan, Benito Juárez 03230 Ciudad de México, D.F.";
 
                 var locationService = new GoogleLocationService();
@@ -112,7 +115,7 @@ namespace ClienteActividades
             {
                 dispatcherTimer.Stop();
                 dispatcherTimer = null;
-                actividad.HoraFin = TimeSpan.Parse(ActividadTimer.Content.ToString());
+                actividad.HoraFin = TimeSpan.Parse(tblTimer.Text);
                 actividad.Duracion = actividad.HoraFin.Subtract(actividad.HoraInicio);
                 CambiarEstadoHabilitado(true);
             }
@@ -120,7 +123,7 @@ namespace ClienteActividades
 
         private void dispatcherTimer_Tick(object sender, EventArgs e)
         {
-            ActividadTimer.Content = DateTime.Now.ToString("HH:mm:ss");
+            tblTimer.Text = DateTime.Now.ToString("HH:mm:ss");
         }
 
         private async void Button_Click_1(object sender, RoutedEventArgs e)
@@ -138,8 +141,10 @@ namespace ClienteActividades
                     if (response.IsSuccessStatusCode)
                     {
                         CambiarEstadoHabilitado(false);
+                        actividades.Add(actividad);
+                        dtgActividades.ItemsSource = actividades;
                         InicializarActividad();
-                        MessageBox.Show(this, "Actividad agregada");
+                        MessageBox.Show(this, "Actividad agregada");                        
                     }                    
                 }
             }
@@ -160,7 +165,7 @@ namespace ClienteActividades
 
         private void InicializarActividad()
         {
-            ActividadTimer.Content = Descripcion.Text = Tipo.Text = string.Empty;
+            tblTimer.Text = txbHoraInicio.Text = Descripcion.Text = Tipo.Text = string.Empty;
         }
     }
 }

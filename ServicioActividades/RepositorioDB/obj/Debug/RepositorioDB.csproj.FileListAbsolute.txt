@@ -14,6 +14,5 @@ C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\bin\Debug\Mo
 C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\bin\Debug\MongoDB.Driver.dll
 C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\bin\Debug\MongoDB.Bson.xml
 C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\bin\Debug\MongoDB.Driver.xml
-C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\obj\Debug\RepositorioDB.csprojResolveAssemblyReference.cache
 C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\obj\Debug\RepositorioDB.dll
 C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\obj\Debug\RepositorioDB.pdb

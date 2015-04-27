@@ -25,7 +25,7 @@ namespace ServicioActividades.Controllers
         }
 
         [Route("api/Actividades/{day}")]
-        public List<Actividad> Get(string day)
+        public IEnumerable<Actividad> Get(string day)
         {
             Actividades a = new Actividades();
             return a.GetActividadesPorFecha(day);

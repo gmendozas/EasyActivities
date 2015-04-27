@@ -29,13 +29,11 @@ namespace RepositorioDB.MongoDb.Repositorios
             Insertar(actividad);
         }
 
-        public List<Actividad> ObtenerActividadesPorDia(string fecha) 
+        public IEnumerable<Actividad> ObtenerActividadesPorDia(string fecha) 
         {
-            List<Actividad> misActividades = new List<Actividad>();
             ConectarDb();
             IMongoQuery query = Query.EQ("Fecha", fecha.Replace('-', '/'));
-            misActividades = ObtenerPorFiltro(query).ToList<Actividad>();
-            return misActividades;
+            return ObtenerPorFiltro(query);
         }
     }
 }

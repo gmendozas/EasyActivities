@@ -18,7 +18,7 @@ namespace ServicioActividades.Models
             return repositorio.ObtenerActividades();
         }
 
-        public List<Actividad> GetActividadesPorFecha(string fecha)
+        public IEnumerable<Actividad> GetActividadesPorFecha(string fecha)
         {
             var connectionString = ConfigurationManager.AppSettings["mongoHost"];
             var db = ConfigurationManager.AppSettings["mongoDb"];

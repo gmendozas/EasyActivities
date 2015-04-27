@@ -3,6 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style x:Key="FontAwesome" TargetType="TextBlock">
+            <Setter Property="TextElement.FontFamily" Value="/Digital_Clock;Component/Fonts/#DS-Digital"/>
+        </Style>
     </Application.Resources>
 </Application>
