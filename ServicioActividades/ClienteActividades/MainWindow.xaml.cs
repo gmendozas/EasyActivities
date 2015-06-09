@@ -40,7 +40,7 @@ namespace ClienteActividades
                                             Usuario = "gmendoza",
                                             Correo = "gmendoza@syesoftware.com"
                                         };
-            this.actividad.Fecha = "24/04/2015";//DateTime.Now.ToString("dd/MM/yyyy");
+            this.actividad.Fecha = DateTime.Now.ToString("dd/MM/yyyy");
             this.dispatcherTimer = null;
             ObtenerActividades();
         }
@@ -58,7 +58,7 @@ namespace ClienteActividades
                     HttpResponseMessage response = await client.GetAsync(uri);
                     if (response.IsSuccessStatusCode)
                     {
-                        actividades = response.Content.ReadAsAsync<IEnumerable<Actividad>>().Result.ToList<Actividad>();
+                        actividades = await response.Content.ReadAsAsync<List<Actividad>>();
                         dtgActividades.ItemsSource = actividades;
                     }
                 }
