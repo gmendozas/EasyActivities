@@ -16,3 +16,13 @@ C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\bin\Debug\Mo
 C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\bin\Debug\MongoDB.Driver.xml
 C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\obj\Debug\RepositorioDB.dll
 C:\sinner_universe\EasyActivities\ServicioActividades\RepositorioDB\obj\Debug\RepositorioDB.pdb
+C:\sinnerUniverse\EasyActivities\ServicioActividades\RepositorioDB\bin\Debug\RepositorioDB.dll.config
+C:\sinnerUniverse\EasyActivities\ServicioActividades\RepositorioDB\bin\Debug\RepositorioDB.dll
+C:\sinnerUniverse\EasyActivities\ServicioActividades\RepositorioDB\bin\Debug\RepositorioDB.pdb
+C:\sinnerUniverse\EasyActivities\ServicioActividades\RepositorioDB\bin\Debug\MongoDB.Bson.dll
+C:\sinnerUniverse\EasyActivities\ServicioActividades\RepositorioDB\bin\Debug\MongoDB.Driver.dll
+C:\sinnerUniverse\EasyActivities\ServicioActividades\RepositorioDB\bin\Debug\MongoDB.Bson.xml
+C:\sinnerUniverse\EasyActivities\ServicioActividades\RepositorioDB\bin\Debug\MongoDB.Driver.xml
+C:\sinnerUniverse\EasyActivities\ServicioActividades\RepositorioDB\obj\Debug\RepositorioDB.csprojResolveAssemblyReference.cache
+C:\sinnerUniverse\EasyActivities\ServicioActividades\RepositorioDB\obj\Debug\RepositorioDB.dll
+C:\sinnerUniverse\EasyActivities\ServicioActividades\RepositorioDB\obj\Debug\RepositorioDB.pdb

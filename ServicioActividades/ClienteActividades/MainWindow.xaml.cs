@@ -47,6 +47,7 @@ namespace ClienteActividades
 
         private async void ObtenerActividades()
         {
+            actividades = new List<Actividad>();
             try
             {
                 using (var client = new HttpClient())
@@ -65,7 +66,6 @@ namespace ClienteActividades
             }
             catch (Exception ex)
             {
-                actividades = new List<Actividad>();
                 MessageBox.Show(this, ex.Message);
             }
         }
@@ -143,6 +143,7 @@ namespace ClienteActividades
                         CambiarEstadoHabilitado(false);
                         actividades.Add(actividad);
                         dtgActividades.ItemsSource = actividades;
+                        dtgActividades.Items.Refresh();
                         InicializarActividad();
                         MessageBox.Show(this, "Actividad agregada");                        
                     }                    
