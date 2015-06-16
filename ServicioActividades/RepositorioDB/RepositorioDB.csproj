@@ -49,7 +49,9 @@
     <Compile Include="MongoDb\BaseRepositorio.cs" />
     <Compile Include="MongoDb\Entidades\Actividad.cs" />
     <Compile Include="MongoDb\Entidades\Colaborador.cs" />
+    <Compile Include="MongoDb\Entidades\CorreoElectronico.cs" />
     <Compile Include="MongoDb\Entidades\Persona.cs" />
+    <Compile Include="MongoDb\Entidades\Telefono.cs" />
     <Compile Include="MongoDb\Entidades\TipoActividad.cs" />
     <Compile Include="MongoDb\Entidades\Ubicacion.cs" />
     <Compile Include="MongoDb\Repositorios\ActividadRepositorio.cs" />

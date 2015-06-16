@@ -19,14 +19,17 @@ namespace ServicioActividades.Models
         }
 
         // GET: api/Colaborador/5
-        public string Get(int id)
+        public Entidad.Colaborador Get(string id)
         {
-            return "value";
+            Colaborador c = new Colaborador();
+            return c.GetColaborador(id);
         }
 
         // POST: api/Colaborador
-        public void Post([FromBody]string value)
+        public void Post([FromBody]Entidad.Colaborador colaborador)
         {
+            Colaborador c = new Colaborador();
+            c.InsertarColaborador(colaborador);
         }
 
         // PUT: api/Colaborador/5

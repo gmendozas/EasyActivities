@@ -45,5 +45,10 @@ namespace RepositorioDB.MongoDb
             var coleccion = database.GetCollection<T>(_nombreColeccion);
             return coleccion.Find(query).AsQueryable();
         }   
+
+        public T ObtenerUno(IMongoQuery query) {
+            var coleccion = database.GetCollection<T>(_nombreColeccion);
+            return coleccion.FindOneAs<T>(query);
+        }
     }
 }
